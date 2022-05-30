@@ -5,6 +5,7 @@ module.exports = {
     mode: 'development',
     entry: {
         index: './src/index.js',
+        quotes: './src/quotes.js',
     },
     plugins: [
         new HtmlWebpackPlugin({

@@ -1,5 +1,4 @@
-{
-	"quotes": [
+Quotes = [
 
 {
        "quote":"Life isn't about getting and having, it's about giving and being.","author":"Kevin Kruse"},
@@ -158,7 +157,7 @@
 {
        "quote":"Build your own dreams, or someone else will hire you to build theirs.","author":"Farrah Gray"},
 {
-       "quote":"The battles that count aren't the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that's where it's at.","author":"Jesse Owens"},
+       "quote":"The battles that count aren't the ones for gold medals. The struggles within yourself the invisible battles inside all of us that's where it's at.","author":"Jesse Owens"},
 {
        "quote":"Education costs money.  But then so does ignorance.","author":"Sir Claus Moser"},
 {
@@ -200,10 +199,10 @@
 {
        "quote":"Either write something worth reading or do something worth writing.","author":"Benjamin Franklin"},
 {
-       "quote":"Nothing is impossible, the word itself says, “I'm possible!”","author":"–Audrey Hepburn"},
+       "quote":"Nothing is impossible, the word itself says, “I'm possible!”","author":"Audrey Hepburn"},
 {
        "quote":"The only way to do great work is to love what you do.","author":"Steve Jobs"},
 {
        "quote":"If you can dream it, you can achieve it.","author":"Zig Ziglar"}
 ]
-}
+
