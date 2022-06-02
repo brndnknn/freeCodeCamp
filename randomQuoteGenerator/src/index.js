@@ -14,6 +14,7 @@ class App extends React.Component{
         const Quotes = require('./quotes');
 
         this.handleNewQuote = this.handleNewQuote.bind(this);
+        this.tweetQuote = this.tweetQuote.bind(this);
 
     }
 
@@ -35,6 +36,9 @@ class App extends React.Component{
         this.randomQuote();
     }
 
+    tweetQuote(){
+        console.log('tweet button');
+    }
 
    
 
@@ -43,9 +47,9 @@ class App extends React.Component{
             <div id="quote-box">
                 <div id="text">{this.state.text}</div>
                 <div id="author">{this.state.author}</div>
-                <br />
-                <a id="tweet-quote">tweetquote</a>
-                <button id="new-quote" onClick={this.handleNewQuote}>New Quote</button>
+                <br /> 
+                <a id="tweet-quote" target="_blank" href={"https://twitter.com/intent/tweet?text=" + encodeURIComponent(this.state.text + " - " + this.state.author)} onClick={this.tweetQuote}>tweetquote</a>
+                <button id="new-quote"  onClick={this.handleNewQuote}>New Quote</button>
             </div>
              
         )
